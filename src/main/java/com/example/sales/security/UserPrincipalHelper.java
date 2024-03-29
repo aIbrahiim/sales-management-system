@@ -3,21 +3,21 @@ package com.example.sales.security;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
-public class SignedUserHelper {
+public class UserPrincipalHelper {
 
     /**
  * get user id of signed user from spring security context
  * @return user id of signed user
  */
-public static SignedUser user() {
+public static UserPrincipal user() {
     Authentication auth = SecurityContextHolder.getContext().getAuthentication();
 
     try {
 
-        return ((SignedUser) auth.getPrincipal());
+        return ((UserPrincipal) auth.getPrincipal());
 
     } catch (ClassCastException e) {
-        var testUser = new SignedUser();
+        var testUser = new UserPrincipal();
         testUser.setUserId(1580L);
         return testUser;
     }

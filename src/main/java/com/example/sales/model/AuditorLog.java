@@ -1,6 +1,6 @@
 package com.example.sales.model;
 
-import com.example.sales.security.SignedUserHelper;
+import com.example.sales.security.UserPrincipalHelper;
 import jakarta.persistence.*;
 import lombok.Data;
 import org.springframework.data.annotation.CreatedBy;
@@ -48,7 +48,7 @@ public abstract class AuditorLog {
         if (isDeleted != null && isDeleted) {
 
             if (deletedBy == null) {
-                deletedBy = SignedUserHelper.userId().toString();
+                deletedBy = UserPrincipalHelper.userId().toString();
             }
 
             if (getDeletedOn() == null) {

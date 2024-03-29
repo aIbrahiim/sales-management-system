@@ -14,11 +14,6 @@ public class ProductController extends AbstractController<Product, Product> {
     @Autowired
     private ProductService productService;
 
-    @Autowired
-    public ProductController(ProductService productService) {
-        this.productService = productService;
-    }
-
     @GetMapping
     public ResponseEntity<List<Product>> getAllProducts() {
         return handle(productService.getAllProducts());

@@ -11,7 +11,7 @@ import java.util.Collection;
 @AllArgsConstructor
 @NoArgsConstructor
 @Setter
-public class SignedUser implements UserDetails {
+public class UserPrincipal implements UserDetails {
 
     private Collection<? extends GrantedAuthority> authorities;
 
