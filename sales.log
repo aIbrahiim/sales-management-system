@@ -1,0 +1,114 @@
+2024-03-28T03:18:18.294+02:00  WARN 7324 --- [sales management system] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-28T03:18:19.390+02:00  WARN 7324 --- [sales management system] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: cf819709-a6bc-4580-addd-9c44998a5192
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-28T03:18:20.164+02:00  WARN 7324 --- [sales management system] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-03-28T03:18:20.261+02:00 ERROR 7324 --- [sales management system] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-03-28T03:18:56.456+02:00  WARN 15784 --- [sales management system] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-28T03:18:57.599+02:00  WARN 15784 --- [sales management system] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: bc348a10-5a61-4fa6-82eb-5809c3f64efd
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-28T03:18:58.108+02:00  WARN 15784 --- [sales management system] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-03-28T03:18:58.191+02:00 ERROR 15784 --- [sales management system] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8084 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8084 or configure this application to listen on another port.
+
+2024-03-28T03:19:20.592+02:00  WARN 10364 --- [sales management system] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-28T03:19:21.621+02:00  WARN 10364 --- [sales management system] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 2d71e484-a106-4bff-a7af-97ec612178eb
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-28T03:19:22.112+02:00  WARN 10364 --- [sales management system] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-03-28T03:19:22.192+02:00 ERROR 10364 --- [sales management system] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8089 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8089 or configure this application to listen on another port.
+
+2024-03-28T03:20:31.771+02:00  WARN 15860 --- [sales management system] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-28T03:20:32.875+02:00  WARN 15860 --- [sales management system] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9fb4fef0-7665-4534-8d66-8b3dd8bf7123
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-28T03:20:33.553+02:00  WARN 15860 --- [sales management system] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-03-28T03:20:33.678+02:00 ERROR 15860 --- [sales management system] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
+2024-03-28T03:24:06.365+02:00  WARN 12452 --- [sales management system] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-28T03:24:07.598+02:00  WARN 12452 --- [sales management system] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 3da79356-4dcd-4781-8e90-526b53a33bbd
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-28T03:26:19.618+02:00  WARN 17076 --- [sales management system] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-28T03:26:21.019+02:00  WARN 17076 --- [sales management system] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: bb91bbe5-e997-45ca-9206-7dd9d2d21c73
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-28T03:27:16.257+02:00  WARN 14976 --- [sales management system] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a13535c6-fff7-42f3-9c28-f003ac6938c7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-28T03:30:06.550+02:00  WARN 1396 --- [sales management system] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 8ebead52-34b3-4aa0-9caf-ae72e44e5b6f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
