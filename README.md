@@ -8,7 +8,7 @@ The Sales Management System is developed to provide a comprehensive solution for
 
 ## Class Diagram
 
-![Sales Management System Class Diagram](sales_management_system_class_diagram.png)
+![Sales Management System Class Diagram](sales management_system_class_diagram.png)
 
 The class diagram above illustrates the structure of our system, showcasing the relationships between the various entities such as `Client`, `Product`, `SalesOperation`, `Seller`, and `Transaction`. This diagram is key to understanding how the components of the system interconnect and interact with one another.
 
@@ -22,8 +22,3 @@ The class diagram above illustrates the structure of our system, showcasing the 
 
 
 
-(Include licensing information here, if applicable.)
-
----
-
-For more information, please refer to the documentation or contact us directly.
