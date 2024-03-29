@@ -21,4 +21,5 @@ The class diagram above illustrates the structure of our system, showcasing the 
 - **Transaction**: Records the financial transactions related to sales operations.
 
 
+[Visit our GitHub repository](https://github.com/aIbrahiim/sales-management-system)
 
