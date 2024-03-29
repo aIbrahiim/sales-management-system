@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.Date;
 
@@ -12,14 +13,11 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Slf4j
 public class SalesOperation {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    @Column(name = "creation_date", nullable = false)
-    @Temporal(TemporalType.TIMESTAMP)
-    private Date creationDate;
 
     @ManyToOne
     @JoinColumn(name = "client_id", nullable = false)
@@ -31,4 +29,25 @@ public class SalesOperation {
 
     @Column(name = "total", nullable = false)
     private double total;
+
+    @Column(name = "creation_date", nullable = true)
+    private Date creationDate;
+
+    @Column(name = "last_modified_date", nullable = true)
+    private Date lastModifiedDate;
+
+    @PrePersist
+    public void onPrePersist() {
+        this.creationDate = new Date();
+    }
+
+    @PreUpdate
+    public void onPreUpdate() {
+        this.lastModifiedDate = new Date();
+    }
+
+    @PreRemove
+    public void onPreRemove() {
+        log.info("Preparing to delete entity with id {}", this.id);
+    }
 }
